@@ -15,10 +15,14 @@ TC:
 
 How the tests were created
 
-1. Take a look at what will be tested
+1. Take a look at the app which will be tested
 2. Decide on what needs to be tested and how
 3. Decide on a language, framework, libraries, etc
-    - python due to simplicity
+    - python (due to simplicity)
     - python with pytest, assertpy
     - requests for making API requests
-4. 
+4. Create a few tests
+    - Run tests separately and all together
+5. Refactor tests
+    - functions or other parts of code can sometimes be reused
+6. Repeat 4. and 5.
